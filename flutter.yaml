@@ -1,0 +1,8 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Uncomment the ones you want to enable:
+    avoid_print: true   # Disallows usage of print statements.
+    prefer_single_quotes: true  # Enforces the use of single quotes for strings.
+    # Additional linting rules can be added here as needed.

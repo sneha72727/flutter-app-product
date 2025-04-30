@@ -1,0 +1,24 @@
+name: product_management
+description: A Flutter project for managing products with a Node.js backend
+
+publish_to: 'none' # Remove this line if publishing your package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  google_fonts: ^5.1.0
+  provider: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
